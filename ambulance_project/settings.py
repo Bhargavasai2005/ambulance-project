@@ -6,7 +6,7 @@ SECRET_KEY = 'your-secret-key-here'  # Replace with a secure key
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ambulance-api.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
