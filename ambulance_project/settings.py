@@ -35,8 +35,10 @@ MIDDLEWARE = [
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_ROOT = BASE_DIR / 'staticfiles'  # Collect static files here
 
-CORS_ALLOWED_ORIGINS = ["https://maxine2490.hocoos.com"]
+CORS_ALLOWED_ORIGINS = [
+    "https://maxine2490.hocoos.com"
 ]
+
 
 ROOT_URLCONF = 'ambulance_project.urls'
 
