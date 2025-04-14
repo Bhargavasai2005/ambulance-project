@@ -6,7 +6,7 @@ SECRET_KEY = 'your-secret-key-here'  # Replace with a secure key
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ambulance-api.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ambulance-project.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -35,10 +35,7 @@ MIDDLEWARE = [
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_ROOT = BASE_DIR / 'staticfiles'  # Collect static files here
 
-CORS_ALLOWED_ORIGINS = [
-    "https://maxine2490.hocoos.com",
-    "http://localhost:8000",  # For local testing
-]
+CORS_ALLOWED_ORIGINS = ["https://maxine2490.hocoos.com"]
 
 ROOT_URLCONF = 'ambulance_project.urls'
 
